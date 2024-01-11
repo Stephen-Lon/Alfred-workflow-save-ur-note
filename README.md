@@ -12,7 +12,8 @@ However, the workflow does a little more than that. You can also save text clipp
 In the workflow configuration choose:
 - the folder where you want to keep your `QuickNote.txt` file;
 - the keyword you want to use to create a quick note;
-- the keyword you want to use to *open* the `QuickNote.txt` file;
+- the keyword you want to use the view the `QuickNote.txt` in QuickLook;
+- the keyword you want to use to *open* the `QuickNote.txt` file in your default text editor;
 - the keyword you want to use to *delete* the `QuickNote.txt` file.
 
 # Usage—saving quick notes
@@ -23,7 +24,13 @@ There are two ways in which to create a quick note.
 
 2. You can use the keyword set to create a quick note and type the text of the note. In that case that you must type a single line of text (with spaces and punctuation as necessary, of course): you cannot use newlines or returns to create a multi-line note. (There is no such restriction if you are *copying* selected text as in 1 above.)
 
-The result of saving quick notes will be a plain text file which you can open in your default file editor by using the relevant keyword set in the workflow configuation (by default `vqn` for "view quick notes").
+# Usage—viewing quick notes
+
+The result of saving quick notes will be a plain text file which you can open in your default text editor by using the relevant keyword set in the workflow configuation (by default `vqn` for "view quick notes").
+
+You can also view the file in QuickLook by using the relevant keyword set in the workflow configuation (by default `vql` for "view [using] QuickLook").
+
+**Note**: [DEBUG] in the QuickLook window title is a function of the command line `qlmanage` and (so far as I am aware) cannot be avoided.
 
 # Usage—deleting the quick notes file
 
